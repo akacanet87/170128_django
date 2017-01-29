@@ -25,7 +25,7 @@ SECRET_KEY = 'c_161_keegxfnh!j(scm-29*3!@e9-me#ldzr+3(1^@&mdiza('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['akacanet87.pythonanywhere.com']
 
 
 # Application definition
@@ -81,6 +81,8 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
+
+DATABASES_OPTIONS = {'charset':'utf8'}
 
 
 # Internationalization
